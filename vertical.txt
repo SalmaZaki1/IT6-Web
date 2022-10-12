@@ -1,0 +1,10 @@
+<h4 style="font-family: 'Prompt', sans-serif;margin-left: 9%;background-color: #B82F48;margin-right: 78%;color: white;margin-top: 3%;">Pole academy</h4>
+
+<span class="vertical" style="margin-top: 5%;margin-left: 32%;"></span>
+<span class="vertical" style="margin-top: 5%;margin-left: 35%;"></span>
+
+    .vertical { 
+border-left: 4px solid black; 
+height: 400px; 
+display: inline-block;
+}

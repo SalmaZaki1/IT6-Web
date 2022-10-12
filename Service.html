@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Accueil</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ 
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital@1&display=swap" rel="stylesheet">
+
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+   <style >
+      .jumbotron{
+    background-color: #961C1A;
+   }
+
+     .nav-link{
+      color: #961C1A;
+
+    }
+    .navbar-nav{
+      margin-left: 29%;
+      column-count: 6;
+      column-gap: 10%;
+
+    }
+.navbar {
+    position: relative;
+    min-height: 70px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+  .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      margin: auto;
+      min-height:200px;
+  }
+
+
+   </style>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+  <body>
+
+  <nav class="navbar navbar-expand-sm bg-light">
+  <a class="navbar-brand" href="accueil.html"><img src="it6.png" style="margin-top: -5%;"  width="20%" qty></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav" style="font-size: 114%;">
+      <li class="nav-item">
+       <b> <a class="nav-link" href="accueil.html">Accueil</a> </b>
+      </li>
+      <li class="nav-item">
+       <b> <a class="nav-link" href="Apropos.html">APropos</a></b>
+      </li>
+      <li class="nav-item">
+        <b><a class="nav-link" href="Service.html">Service</a></b>
+      </li>  
+      <li class="nav-item"> 
+        <b><a class="nav-link" href="evenement.html">Evenements</a></b>
+      </li>
+       <li class="nav-item"> 
+        <b><a class="nav-link" href="Article.html">Articles</a></b>
+      </li>
+       <li class="nav-item"> 
+        <b><a class="nav-link" href="contact.html">Contact</a></b>
+      </li>
+  </ul>
+  </div>  
+</nav>
+
+<h1 style="font-family: 'Prompt', sans-serif;margin-top: 5%;text-align: center;color: #961C1A;">Notre Expertise</h1>
+<hr style="width: 80%;">
+<canvas id="myChart1" style="width:90%;max-width:600px;margin-left: -13%;margin-top: 1%;"></canvas>
+
+<script>
+var xValues = ["strategie d'entreprise"];
+var yValues = [90,10];
+var barColors = [
+ "#768CA7  ",
+  "#E0D3D2 "
+];
+
+new Chart("myChart1", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+     
+    }
+  }
+});
+</script>
+
+<canvas id="myChart2" style="width:90%;max-width:600px;margin-left: 9%;margin-top: -24%;"></canvas>
+
+<script>
+var xValues = ["Organisation"];
+var yValues = [90,10];
+var barColors = [
+  "#768CA7  ",
+  "#E0D3D2 "
+];
+
+new Chart("myChart2", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+     
+    }
+  }
+});
+</script>
+
+<canvas id="myChart3" style="width:90%;max-width:600px;margin-left: 31%;margin-top: -24%;"></canvas>
+
+<script>
+var xValues = ["Gouvernance"];
+var yValues = [90,10];
+var barColors = [
+  "#768CA7  ",
+  "#E0D3D2 "
+];
+
+new Chart("myChart3", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+     
+    }
+  }
+});
+</script>
+
+<canvas id="myChart4" style="width:90%;max-width:600px;margin-left: 53%;margin-top: -24%;"></canvas>
+
+<script>
+var xValues = ["Innovation"];
+var yValues = [90,10];
+var barColors = [
+  "#768CA7  ",
+  "#E0D3D2 "
+];
+
+new Chart("myChart4", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+     
+    }
+  }
+});
+</script>
+<hr style="width: 80%;margin-top: 5%;">
+
+<img src="strat.jpg" style="width: 35%;margin-top: 9%;margin-left: 60%;">
+<form style="margin-top: -29%;margin-left: 3%;">
+<img src="this.png" style="width: 3%";"><h4 style="font-family: 'STIX Two Text', serif;margin-top: -2%;margin-left: 4%;">STRATEGIE D'ENTREPRISE</h4>
+<p>
+<p style="color: #9D3027;">"Mettez-vous sur les bon rails"</p>
+Avoir une stratégie bien en place vous donne un cadre qui guide et facilite<br> vos décisions au quotidien.
+</p>
+<p>
+<img src="this.png" style="width: 3%;"><h4 style="font-family: 'STIX Two Text', serif;margin-top: -3.5%;margin-left: 4%;">ORGANISATION</h4>
+<p style="color: #9D3027;">"Optimisez votre entreprise"</p>
+Dans son essence, une entreprise est le rassemblement de plusieurs personnes qui travaillent <br>ensemble à la poursuite d’un but commun. Il est donc indispensable de s’organiser.<br> Savoir qui fait quoi et quand.
+</p>
+<p>
+<img src="this.png" style="width: 3%;"><h4 style="font-family: 'STIX Two Text', serif;margin-top: -3.5%;margin-left: 4%;">GOUVERNANCE</h4>
+<p style="color: #9D3027;">"Facilitez les prises de décision"</p>
+Le bon fonctionnement d’une entreprise dépend d’un pilotage adéquat.<br> En pratique, le quotidien des dirigeants, à tous les niveaux, est fait d’une succession de décisions<br> qui auront des répercussions à court, moyen ou long terme.
+</p>
+<p>
+<img src="this.png" style="width: 3%;"><h4 style="font-family: 'STIX Two Text', serif;margin-top: -3.5%;margin-left: 4%;">INNOVATION</h4>
+<p style="color: #9D3027;">"S'amélirer constamment"</p>
+Innover en permanence est indispensable à toute entité pour survivre dans<br> un marché économique de plus en plus concurrentiel.</p>
+</form>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" style="margin-top: 5%;">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="gouvernance.jpg" alt="Image" style="width: 800px;height: 300px;">
+        <div class="carousel-caption">
+          <h2>Gouvernance et Organisation des SI</h2>
+          <button style="background-color: white;border-radius: 10px;"><a href="gouvernance.html" style="color: black;" >See More</a></button>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="Urbanisation-SI.jpg" alt="Image" style="width: 800px;height: 300px;">
+        <div class="carousel-caption">
+          <h2>Transformation digitale et urbanisation des SI</h2>
+          <button style="background-color: white;border-radius: 10px;"><a href="digital.html" style="color: black;">see more</a></button>
+        </div>      
+      </div>
+      
+       <div class="item">
+        <img src="cyber.jpg" alt="Image" style="width: 900px;height: 300px;">
+        <div class="carousel-caption">
+          <h2>Cybersécurité</h2>
+          <button style="background-color: white;border-radius: 10px;"><a href="cybersecurite.html" style="color: black;">see more</a></button>
+        </div>      
+      </div>
+      
+       <div class="item">
+        <img src="SI.jpg" alt="Image" style="width: 900px;height: 300px;">
+        <div class="carousel-caption">
+          <h2>Formation SI</h2>
+          <button style="background-color: white;border-radius: 10px;"><a href="formationSI.html" style="color: black;" >see more</a></button>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+  
+<br>
+<div class="jumbotron " style="margin-bottom:0;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13231.537524459998!2d-6.8479564!3d33.9955034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33daca805e37835e!2sIT6%20SARL!5e0!3m2!1sfr!2sma!4v1626684248903!5m2!1sfr!2sma" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<h4 style="font-family: serif;margin-left: 45%;margin-top: -20%;color: white;">Lien Utiles</h4>
+<br>
+<ol style="margin-left: 45%;color: white;">
+<li><a href="accueil.html" style="color: white;">Accueil</a></li>
+<li><a href="Apropos.html" style="color: white;">A propos</a></li>
+<li><a href="Service.html" style="color: white;">Service</a></li>
+<li><a href="evenement.html" style="color: white;">Evenements</a></li>
+<li><a href="Article.html" style="color: white;">Articles</a></li>
+<li><a href="contact.html" style="color: white;">Contact</a></li>
+</ol>
+<h4 style="font-family: serif;margin-left: 70%;margin-top:-12.4% ; color: white;">Contact</h4>
+<br>
+<div style="margin-left: 70%;color: white;">
+<img src="ma.png"style="width: 6.5%;"> 37, Angle Avenue Fal ould Oumeir et rue Oukeimeden Appt 4, Agdal - Rabat<br>
+<img src="phone.png" style="width: 6%;"> Téléphone :+212 5 37 67 03 32<br>
+<img src="phone.png" style="width: 6%;"> Fax :+212 5 37 67 00 96<br>
+<img src="mail.png" style="width: 6%;"> contact@it6.ma<br>
+<img src="mail.png" style="width: 6%;"> seminaire@it6.ma<br>
+<a href="https://www.facebook.com/IT6IT6/"><img src="fb.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://twitter.com/It6Group"><img src="tw.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://fr.linkedin.com/company/it6-consulting"><img src="in.png" style="width: 9%; margin-top: 8%;"></a>
+<a href=""><img src="tube.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://www.instagram.com/it6/"><img src="ig.png" style=" width: 9%; margin-top: 8%;"></a>
+</div>
+</body>
+</html>

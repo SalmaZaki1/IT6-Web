@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Accueil</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  .fakeimg {
+    height: 200px;
+    background: #aaa;
+  }
+  .texte_centrer {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #961C1A ;
+}
+   .jumbotron{
+    background-color: #961C1A;
+   }
+body {
+  height: 500px;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+Attribut de .style {
+    position: absolute;
+    display: block;
+    pointer-events: auto;
+    left: 609px;
+    top: 288px;
+    z-index: 10;
+    visibility: visible;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+
+.cta:focus {
+   outline: none; 
+}
+
+.cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+}
+
+.cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.cta:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  .navbar {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+ .navbar-nav{
+      margin-left: 10%;
+      column-count: 6; 
+    }
+    
+
+  </style>
+
+</head>
+<body>
+<style>
+
+.animation-area{
+    background-image: url(a.jpeg);
+    filter: blur(3px);
+    display:block;
+    width:100%;
+    height:540px;
+  }
+
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.cta:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.cta:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.cta:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
+
+
+
+</style>
+<script>
+function scrollWin() {
+  window.scrollTo(0, 550);
+}
+</script>
+<div class="animation-area"> 
+  <ul class="box-area">
+     </ul>
+</div>
+     <div class="texte_centrer">
+         <h1 style="font-size: 5.2em; margin-top: 35%;">IT6 </h1>
+         <h1 style="font-size: 5.2em; color: #C4C1C1;">Consulting</h1>  
+         <div>
+         <button onclick="scrollWin()" style="border: none;
+                     border-radius:70px;
+                     text-decoration : none;
+                     width:50px;
+                     background: white;
+                     margin-top: 40%;
+                    margin-left: 45%;
+                     height:50px";>
+                     <img src="l.png" style="width: 70%;">
+         </button><br><br>
+       </div>
+     </div>
+
+<nav class="navbar navbar-expand-sm bg-light">
+  <a class="navbar-brand" href="accueil.html"><img src="it6.png" width="20%" qty></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="accueil.html">Accueil</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="apropos.html">A Propos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="service.html">Service</a>
+      </li>  
+      <li class="nav-item"> 
+        <a class="nav-link" href="evenement.html">Evenements</a>
+      </li>
+       <li class="nav-item"> 
+        <a class="nav-link" href="Article.html">Articles</a>
+      </li>
+       <li class="nav-item"> 
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+
+      <li class="nav-item"> 
+        <a class="nav-link" href="signup.php" style="margin-left: 570%;height: 10%;">SignUp</a>
+      </li>
+    </ul>
+     <form class="form-inline">
+         <input class="form-control mr-sm-2" type="search" placeholder="Search..." id="search" onchange="ouvrirpage()"> 
+      <button style="border: none;background-color: #F8F9FA " id="button" onclick="ouvrirpage()"><img src="search.png" ></button> 
+     </form>
+     <script>
+       function ouvrirpage(){
+        var a=document.getElementById("search").value;
+        if(a == "it6"){
+          window.open("IT6search.html");
+       }
+}
+     </script>
+       <a href="signup.php"><img src="sign.png" style="margin-left: 200%;"> </a>
+  </div>  
+</nav>
+
+
+
+<div class="container" style="margin-top:30px">
+  <div class="row">
+    <div class="col-sm-4">
+      <h2 style="color: #961C1A;">A Propos</h2>
+      <h5>Video qui représente notre cabinet :</h5>
+      <div class="fakeimg"></div>
+      <p>Le directeur Mr Hicham El Achguar</p>
+     
+    </div>
+    <div>
+      <p style="margin-left: 35%;margin-top: -15%;">IT6 un cabinet de conseil spécialisé en stratégie, organisation et gouvernance d'entreprise. Nous accompagnons nos clients Directeurs métiers, Directeurs généraux dans la mise en œuvre de leurs projets.</p>
+      <br>
+          <a class="nav-link" href="apropos.html" style="margin-left: 34%;margin-top: -3%;">voir plus.</a>
+      <br><br>
+      <hr>
+      <h2 style="color: #961C1A;">Services</h2>
+      <div style="height: 50vh;
+  margin-left: 4%;">
+  <a class="cta" href="digital.html" style="width: 20%;height: 35%;;margin-top: 4%;color: white;">
+     <h5><b><i>Transformation digitale et urbanisation des SI</i></b></h5>
+  </a>
+  <br>
+  <p><i style="color: #961C1A;font-size: medium;">La plus grande difficulté <br>de la transformation numérique,<br> c'est de changer la roue <br>de la voiture sans l'arrêter.</i></p>
+</div>
+
+
+ <div style="height: 50vh;
+  margin-left: 30%;">
+  <a class="cta" href="gouvernance.html" style="width: 25%;height: 35%;margin-top: -38%;color: white;">
+      <h5><b><i>Gouvernance et Organisation des SI</i></b></h5>
+  </a>
+  <br>
+  <p><i style="color: #961C1A;font-size: medium;">Rien n'est permanent sauf <br>le changement.</i></p>
+</div>
+
+<div style="height: 50vh;
+  margin-left: 55%;">
+  <a class="cta" href="cybersecurite.html" style="width: 40%;height: 35%;margin-top: -59%;color: white;">
+      <h5><b><i>Cybersécurité</i></b></h5>
+  </a>
+  <br>
+  <p><i style="color: #961C1A;font-size: medium;">Jouer la sécurité est le choix<br>le plus risqué que l'on puisse faire.</i></p>
+</div>
+
+<div style="height: 50vh;
+  margin-left: 80%;">
+  <a class="cta" href="formationSI.html" style="width: 80%;height: 35%;margin-top: -134%;color: white;">
+      <h5><b><i>Formation SI</i></b></h5>
+  </a>
+  <br>
+  <p><i style="color: #961C1A;font-size: medium;">Investir dans la formation<br> c'est conjuguer au présent<br> mais aussi au futur.</i></p>
+ 
+</div>
+<hr style="margin-top: -5%;"><h3 style="text-align: center;font-family: 'Dancing Script', cursive;">Plus de 687 entreprises nous font confiance</h3><hr>
+<img src="partenaire1.jfif" style="width: 20%;margin-left: 20%;">
+<img src="partenaire2.png" style="width: 20%;">
+<img src="partenaire3.png" style="width: 20%;">
+    </div>
+  </div>
+</div>
+
+<div class="jumbotron " style="margin-bottom:0;">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13231.537524459998!2d-6.8479564!3d33.9955034!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x33daca805e37835e!2sIT6%20SARL!5e0!3m2!1sfr!2sma!4v1626684248903!5m2!1sfr!2sma" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+<h4 style="font-family: serif;margin-left: 45%;margin-top: -24%;color: white;">Lien Utiles</h4>
+<br>
+<ol style="margin-left: 45%;color: white;">
+<li><a href="accueil.html" style="color: white;">Accueil</a></li>
+<li><a href="apropos.html" style="color: white;">A propos</a></li>
+<li><a href="service.html" style="color: white;">Service</a></li>
+<li><a href="evenement.html" style="color: white;">Evenements</a></li>
+<li><a href="article.html" style="color: white;">Articles</a></li>
+<li><a href="contact.html" style="color: white;">Contact</a></li>
+</ol>
+<h4 style="font-family: serif;margin-left: 70%;margin-top:-15.2% ; color: white;">Contact</h4>
+<br>
+<div style="margin-left: 70%;color: white;">
+<img src="ma.png"style="width: 6.5%;"> 37, Angle Avenue Fal ould Oumeir et rue Oukeimeden Appt 4, Agdal - Rabat<br>
+<img src="phone.png" style="width: 6%;"> Téléphone :+212 5 37 67 03 32<br>
+<img src="phone.png" style="width: 6%;"> Fax :+212 5 37 67 00 96<br>
+<img src="mail.png" style="width: 6%;"> contact@it6.ma<br>
+<img src="mail.png" style="width: 6%;"> seminaire@it6.ma<br>
+<a href="https://www.facebook.com/IT6IT6/"><img src="fb.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://twitter.com/It6Group"><img src="tw.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://fr.linkedin.com/company/it6-consulting"><img src="in.png" style="width: 9%; margin-top: 8%;"></a>
+<a href=""><img src="tube.png" style="width: 9%; margin-top: 8%;"></a>
+<a href="https://www.instagram.com/it6/"><img src="ig.png" style=" width: 9%; margin-top: 8%;"></a>
+</div>
+</body>
+</html>
